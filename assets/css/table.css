@@ -1,0 +1,56 @@
+input{
+    font-family: 'Josefin Slab', serif;
+    
+}
+input[type=submit]{
+    font-family: 'Josefin Slab', serif;
+}
+/* div.column{
+    width: 45%;
+} */
+/* .column input[type=submit]{
+    width: 20%;
+} */
+table{
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px;
+}
+tr{
+    background-color: lightgray;
+}
+th{
+    color: black;
+    background-color: darkgray;
+}
+#info h1{
+    text-align: center;
+}
+div.basic{
+    float: left;
+    width: 40%;
+}
+div.acct{
+    float: left;
+    width: 40%;
+}
+div.file{
+    float: left;
+}
+/*Responsive layout- when the screen is less than 600px wide,
+make the div.basic, div.acct,div.file stack on top of each other,
+instead of next to each other */
+@media screen and (max-width:600px){
+    div.basic, div.acct, div.file {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+div.newLoan{
+    position: absolute;
+}
+div.loanfile{
+    float: left;
+}
+div.pay{
+    float: left;
+}

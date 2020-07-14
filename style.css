@@ -1,0 +1,160 @@
+
+
+/*--------------------*/
+/* HEADER */
+/*--------------------*/
+
+#mu-hero {
+	/* background-color: #0091ea; */
+	background-color: #9b2743;
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-logo-area {
+	display: inline;
+	float: left;
+	width: 50%;
+}
+
+.mu-navbar .mu-logo {
+	color: #fff;
+	font-weight: 600;
+	/* font-size: 36px; */
+	font-size: 25px;
+}
+
+.mu-logo span{
+	display: inline-block;
+}
+
+.mu-logo img {
+	margin-top: -5px;
+}
+
+.mu-navbar .mu-logo:hover,
+.mu-navbar .mu-logo:focus {
+	color: #fff;
+}
+
+.mu-scrolldown-area {
+	display: inline;
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+.mu-scrolldown {
+	font-size: 40px;
+	color: #fff;
+	display: inline-block;
+	margin-top: 50px;
+}
+
+.mu-scrolldown:hover,
+.mu-scrolldown:focus {
+	color: #fff;
+}
+
+
+/*--------------------*/
+/* MENUE */
+/*--------------------*/
+
+.mu-navbar {
+	padding: 20px 0;
+}
+
+.mu-navbar-nav {
+	display: block;
+	text-align: right;
+	width: 100%;
+}
+
+.mu-navbar-nav li {
+	list-style: none;
+	display: inline-block;
+}
+
+.mu-navbar-nav li a {
+	color: #fefeff;
+	display: block;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 9px 18px;
+	border-radius: 15px;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+
+.navbar-light .navbar-nav .active > .nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show > .nav-link {
+	color: #fff;
+}
+
+.mu-navbar-nav li.active a,
+.mu-navbar-nav li a:hover,
+.mu-navbar-nav li a:focus {
+	background-color: #fff;
+	color: #9B2743;
+}
+
+
+
+.mu-navbar-nav .dropdown-menu {
+	left: auto;
+	right: 0;
+}
+
+.mu-navbar-nav li .dropdown-menu a {
+	color: #444;
+	padding: 6px 15px;
+}
+
+.mu-navbar-nav li .dropdown-menu a:hover,
+.mu-navbar-nav li .dropdown-menu a:focus {
+	color: #0091ea;
+}
+
+
+
+/*--------------------*/
+/* RESPONSIVE STYLE */
+/*--------------------*/
+
+@media (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0; 
+      top: 100%;
+   }
+}
+
+@media (max-width: 991px) {	
+
+	.mu-navbar-nav {
+		display: flex;
+		text-align: left;
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.mu-navbar-nav li {
+		margin-bottom: 10px;
+	}
+
+	.mu-navbar .navbar-toggler {
+		color: #fff;
+		border-color: #fff;
+		cursor: pointer;
+		padding: 10px 15px;
+	}
+
+}
+
